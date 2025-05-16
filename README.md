@@ -1,4 +1,4 @@
-# News Sentiment Analyzer (Flask App)
+# News Sentiment Aggregator (Flask App)
 
 This project scrapes news from Ground News, analyzes sentiment using NLTK, and displays filtered news articles via a Flask web interface.
 
