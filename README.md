@@ -13,3 +13,16 @@ This project scrapes news from Ground News, analyzes sentiment using NLTK, and d
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+🤝 ## Contributing
+Want to collaborate?
+
+Fork the repo
+
+Create a new branch: git checkout -b feature/your-feature-name
+
+Make your changes and commit: git commit -m "Your commit message"
+
+Push to GitHub: git push origin your-feature-name
+
+Open a Pull Request
