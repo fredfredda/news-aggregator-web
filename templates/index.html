@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>News Headlines</title>
+</head>
+<body>
+    <h2>News Filtered by: {{ mood }}</h2>
+    <form method="get" action="/">
+        <select name="mood" onchange="this.form.submit()">
+            <option value="all">All</option>
+            <option value="good">Good</option>
+            <option value="neutral">Neutral</option>
+            <option value="bad">Bad</option>
+        </select>
+    </form>
+    <ul>
+        {% for index, title in news.items() %}
+            <li><a href="{{ url_for('article', index=index) }}">{{ title }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
